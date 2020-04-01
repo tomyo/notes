@@ -10,3 +10,11 @@ I followed [this guide](https://developer.mozilla.org/en-US/docs/Mozilla/Develop
 2. `git clone hg::https://hg.mozilla.org/mozilla-central  ; cd mozilla-central`
 3. `./mach build`
 4. `./mach run`
+
+
+### Set up [Incremental builds]
+
+1. Install `watchman`
+2. `/mach build # (Capture changes to the build system -- only needed once!)`
+3. `./mach watch`
+4. On a second terminal tab, run: `./mach run`
