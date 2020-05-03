@@ -15,3 +15,7 @@ Still can't find a solution for this. Looks related to Arch and X. (gnome in way
 This app make install AppImages a breeze, including deskop integration and uninstall.
 
 https://github.com/TheAssassin/AppImageLauncher
+
+
+### Reduce eyes strain 
+https://github.com/slgobinath/SafeEyes
